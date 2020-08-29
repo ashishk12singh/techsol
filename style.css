@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+body{
+	font-family: sans-serif; 
+}
+.top-nav-bar{
+	height:auto;
+	top: 0;
+	position: sticky;
+	border-bottom: 2px solid purple;
+	margin-bottom: 20px;
+	z-index: 2;
+}
+.logo{
+	height: 96px;
+	margin: 2px 2px;
+}
+.form-control{
+	margin-top: 25px !important;
+	margin-left: 7% !important;
+	border: 1.5px solid purple !important;
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+	box-shadow: none !important;
+}
+.input-group-text{
+	background: orange !important;
+	border: 1.5px solid orange !important;
+	margin: 24px 0px 36px 0 !important;
+	border-top-right-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	box-shadow: none !important;
+	cursor:pointer;
+}
+.search-box{
+	display: inline-flex;
+	width:75%;
+}
+.search-box h1{
+	margin-left: 3%;
+	margin-top:15px;
+	font-weight: bolder !important;
+	white-space: nowrap;
+	font-size:300%;
+	font-style: oblique;
+	color: indigo;
+	text-shadow: 2px 1.5PX #A9A9a9;
+}
+.fa-search{
+	color:white;
+}
+.topmenu{
+	width: 25%;
+	height: auto;
+	float:right;
+	margin-top: auto;
+}
+.topmenu ul{
+	display: inline-flex;
+	float: right;
+	cursor:pointer;
+}
+.topmenu ul li{
+	border-left: 1px solid white;
+	list-style-type: none;
+	padding:15px 15px;
+	text-align: center;
+	background-color: purple;
+	color: white;
+}
+
+@media only screen and (max-width: 980px)
+{
+.top-nav-bar{
+	height: 200px;
+	border-bottom: 0;
+}	
+.search-box{
+	width:100%
+}
+.topmenu{
+	width:100%;
+
+}
+.topmenu ul{
+	margin: 10px 0;
+	width: 100%;
+}
+.topmenu ul li{
+	height: 90px;
+	width:100%;
+	font-size: 280%
+}
+.logo{
+	height: 120px;
+}
+.form-control{
+	margin-top: 40px !important;
+	margin-left: 30% !important;
+}
+.input-group-text{
+	margin-right: 3% !important;
+	margin-left: 0 !important;
+	margin-top: 39px !important;
+	margin-bottom: 45px !important;
+}
+.search-box h1{
+	font-size: 400%;
+	margin-top: 2.3%;
+	max-width: 5%;
+}
+}
