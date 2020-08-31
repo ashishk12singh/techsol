@@ -150,10 +150,10 @@ body{
 	margin-left: 0.02%;
 }
 .partnerform h3{
-	font-size: 75px;
+	font-size: 45px;
 }
 .partnerform label{
-	font-size: 75px;
+	font-size: 30px;
 }
 .partnerform input{
 	margin-bottom: 25px;
@@ -162,6 +162,8 @@ body{
 }
 .partnerform small,button{
 	margin-left: 15%;
+	width: 5%;
+	font-size: 15px;
 }
 .partnerform input,label{
 	margin-left: 15%;
