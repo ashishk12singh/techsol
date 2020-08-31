@@ -149,8 +149,11 @@ body{
 	max-width: 5%;
 	margin-left: 0.02%;
 }
-.partnerform input,label{
-	height: 50px;
+.partnerform label{
+	text-size-adjust:2.3;
+}
+.partnerform input{
+	height: 100px;
 }
 .partnerform small,button{
 	margin-left: 15%;
