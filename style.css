@@ -106,7 +106,7 @@ body{
 	text-align: center;
 	margin-bottom:10%;
 	margin-top: 90px;
-	font-family: serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 @media only screen and (max-width: 980px)
 {
@@ -149,6 +149,7 @@ body{
 	max-width: 5%;
 	margin-left: 0.02%;
 }
-.partnerform{
+.partnerform input,label{
+	size: 40px;
 }
 }
